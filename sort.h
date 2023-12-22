@@ -30,6 +30,8 @@ void selection_sort(int *array, size_t size);
 
 /* 3. Quick Sort */
 void quick_sort(int *array, size_t size);
+void quicksort_recursive(int *array, int low, int high, size_t size);
+int lomuto_partition(int *array, int low, int high, size_t size);
 
 /* 4. Shell Sort - Knuth Sequence */
 void shell_sort(int *array, size_t size);
